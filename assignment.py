@@ -2813,9 +2813,9 @@ def calculate_damage(attack, defense, critical):
 # A 25% discount means the customer pays 75% of the price.
 
 def final_price(price, coupon):
-    if coupon == "SAVE10":
+    if coupon == "Save10":
         return price * 0.90
-    elif coupon == "SAVE25":
+    elif coupon == "Save25":
         return price * 0.75
     else:
         return price
